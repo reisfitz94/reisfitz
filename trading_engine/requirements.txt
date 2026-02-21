@@ -1,0 +1,18 @@
+# Trading Engine Dependencies
+# Python 3.8+
+
+# Async HTTP and WebSocket client
+aiohttp>=3.8.0
+
+# Async SQLite driver
+aiosqlite>=0.17.0
+
+# Data validation and serialization
+pydantic>=2.0.0
+
+# Optional: For better database support
+# asyncpg>=0.27.0  # PostgreSQL async driver (production)
+
+# Optional: For CLI enhancements
+# typer>=0.9.0     # Modern CLI framework
+# rich>=13.0.0     # Rich terminal output
