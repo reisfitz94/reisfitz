@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-03-01T23:53:05.720829",
+  "metadata": {
+    "n_genes": 50,
+    "n_samples": 30,
+    "n_variants": 200
+  },
+  "insights": [
+    {
+      "title": "High-Impact Variant Hotspot: GENE_044",
+      "confidence": 0.7935706545388016,
+      "potential_impact": "high",
+      "evidence_genes": [
+        "GENE_044"
+      ],
+      "recommended_experiments": [
+        "Target GENE_044 for CRISPR validation studies",
+        "Perform functional rescue experiments",
+        "Conduct cell proliferation assays"
+      ],
+      "trial_and_error_reduction": 0.25
+    },
+    {
+      "title": "Sample Quality Assessment",
+      "confidence": 0.9,
+      "potential_impact": "high",
+      "evidence_genes": [
+        "GENE_000",
+        "GENE_001",
+        "GENE_002",
+        "GENE_003",
+        "GENE_004"
+      ],
+      "recommended_experiments": [
+        "Verify sample preparation for flagged samples",
+        "Perform quality control re-analysis",
+        "Consider batch effect correction"
+      ],
+      "trial_and_error_reduction": 0.15
+    }
+  ],
+  "experiment_recommendations": {
+    "high_priority": [
+      "Target GENE_044 for CRISPR validation studies",
+      "Perform functional rescue experiments",
+      "Conduct cell proliferation assays",
+      "Verify sample preparation for flagged samples",
+      "Perform quality control re-analysis"
+    ],
+    "medium_priority": [],
+    "validation": []
+  },
+  "estimated_efficiency_gain": 0.24
+}

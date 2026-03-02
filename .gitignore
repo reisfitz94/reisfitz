@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.RData
+*.Rhistory
+.Rproj.user/
+.DS_Store
+.env
+secrets.yml

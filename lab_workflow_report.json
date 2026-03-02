@@ -1,0 +1,131 @@
+{
+  "timestamp": "2026-03-02T00:02:43.876682",
+  "analysis_results": {
+    "bottleneck_count": 6,
+    "efficiency_metrics": {
+      "total_processing_minutes": 126.24819128149372,
+      "total_queue_minutes": 100.2666894006596,
+      "total_turnaround_minutes": 226.51488068215332,
+      "processing_efficiency": 0.5573505409503128,
+      "queue_percentage": 44.26494590496872
+    },
+    "data_entry_issues_count": 5
+  },
+  "optimizations": [
+    {
+      "id": "opt_001",
+      "title": "Implement Batch Processing",
+      "description": "Group samples in batches of 10-15 for analysis",
+      "time_savings": 10.209706340484493,
+      "cost_savings": 5.104853170242246,
+      "implementation_effort": "low",
+      "priority_score": 0.95,
+      "efficiency_gain": 0.12
+    },
+    {
+      "id": "opt_data_p006",
+      "title": "Automate Data Entry - data_entry",
+      "description": "Implement LIMS integration for data_entry",
+      "time_savings": 17.5,
+      "cost_savings": 7.0,
+      "implementation_effort": "medium",
+      "priority_score": 0.8,
+      "efficiency_gain": 0.1
+    },
+    {
+      "id": "opt_data_p005",
+      "title": "Automate Data Entry - qc",
+      "description": "Implement LIMS integration for qc",
+      "time_savings": 7.0,
+      "cost_savings": 2.8000000000000003,
+      "implementation_effort": "medium",
+      "priority_score": 0.8,
+      "efficiency_gain": 0.1
+    },
+    {
+      "id": "opt_data_p003",
+      "title": "Automate Data Entry - quantification",
+      "description": "Implement LIMS integration for quantification",
+      "time_savings": 8.399999999999999,
+      "cost_savings": 3.3599999999999994,
+      "implementation_effort": "medium",
+      "priority_score": 0.8,
+      "efficiency_gain": 0.1
+    },
+    {
+      "id": "opt_004",
+      "title": "Enhance Sample Tracking System",
+      "description": "Implement barcode scanning and automated sample routing",
+      "time_savings": 15.0,
+      "cost_savings": 10.0,
+      "implementation_effort": "medium",
+      "priority_score": 0.75,
+      "efficiency_gain": 0.08
+    },
+    {
+      "id": "opt_007",
+      "title": "Deploy Mobile Data Recording",
+      "description": "Mobile devices with offline capability for real-time data entry",
+      "time_savings": 10.0,
+      "cost_savings": 8.0,
+      "implementation_effort": "medium",
+      "priority_score": 0.68,
+      "efficiency_gain": 0.09
+    },
+    {
+      "id": "opt_006",
+      "title": "Implement Parallel Processing Workflow",
+      "description": "Process different sample types simultaneously where possible",
+      "time_savings": 20.0,
+      "cost_savings": 15.0,
+      "implementation_effort": "high",
+      "priority_score": 0.65,
+      "efficiency_gain": 0.12
+    }
+  ],
+  "efficiency_summary": {
+    "total_efficiency_gain_percent": 34.11178209280001,
+    "total_time_savings_minutes": 58.10970634048449,
+    "total_cost_savings_dollars": 28.264853170242247,
+    "payback_period_weeks": 4,
+    "recommended_optimizations": 6
+  },
+  "implementation_plan": {
+    "phase_1_quick_wins": [
+      {
+        "title": "Implement Batch Processing",
+        "timeline": "1-2 weeks",
+        "time_savings": 10.209706340484493,
+        "cost_savings": 5.104853170242246
+      }
+    ],
+    "phase_2_implementation": [
+      {
+        "title": "Automate Data Entry - data_entry",
+        "timeline": "2-4 weeks",
+        "time_savings": 17.5,
+        "cost_savings": 7.0
+      },
+      {
+        "title": "Automate Data Entry - qc",
+        "timeline": "2-4 weeks",
+        "time_savings": 7.0,
+        "cost_savings": 2.8000000000000003
+      },
+      {
+        "title": "Automate Data Entry - quantification",
+        "timeline": "2-4 weeks",
+        "time_savings": 8.399999999999999,
+        "cost_savings": 3.3599999999999994
+      }
+    ],
+    "phase_3_infrastructure": [
+      {
+        "title": "Implement Parallel Processing Workflow",
+        "timeline": "4-8 weeks",
+        "time_savings": 20.0,
+        "cost_savings": 15.0
+      }
+    ]
+  }
+}
